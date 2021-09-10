@@ -1,0 +1,143 @@
+* {
+  margin: 10px;
+  padding: 10px;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #cc8925;
+}
+
+body .div1,
+body .div2 {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#5e80e0),
+    to(#a8f784)
+  );
+  background: linear-gradient(#5e80e0, #a8f784);
+  border: 2px solid #d33b14;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  height: 80px;
+  width: 45%;
+}
+
+body .div1:hover,
+body .div2:hover {
+  width: 50%;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#a8f784),
+    to(#5e80e0)
+  );
+  background: linear-gradient(#a8f784, #5e80e0);
+}
+
+body .div1 h1,
+body .div2 h1,
+body .div2 p {
+  color: red;
+  text-align: center;
+}
+
+body .div2 {
+  width: 30%;
+  height: 250px;
+}
+
+body .div2:hover {
+  width: 25%;
+  height: 280px;
+}
+
+body .div2 p {
+  color: black;
+  font-size: 20px;
+}
+
+body .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 30%;
+  height: 600px;
+  border: 2px solid blue;
+  cursor: pointer;
+  -webkit-transition: all 3s linear;
+  transition: all 3s linear;
+  background-color: #3478d1;
+}
+
+body .flex-container .flex1,
+body .flex-container .flex2,
+body .flex-container .flex3,
+body .flex-container .flex4 {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ff1e00;
+  background-color: gold;
+  border-radius: 0%;
+  -webkit-transition: all 3s linear;
+  transition: all 3s linear;
+}
+
+body .flex-container:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 70%;
+  height: 160px;
+  background-color: gold;
+}
+
+body .flex-container:hover .flex1,
+body .flex-container:hover .flex2,
+body .flex-container:hover .flex3,
+body .flex-container:hover .flex4 {
+  background-color: #3478d1;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
